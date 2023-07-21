@@ -8,7 +8,8 @@
 main{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to right, #de6161, #2657eb);
+    background: url(./image.jpg);
+    background-size: 1000px;
     padding-top: 70px;
 }
 
@@ -19,7 +20,7 @@ main{
     margin: auto;
     border-radius: 30px;
     display: flex;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(255, 255, 255) 0px 10px 20px -10px;
 }
 
 #first{
