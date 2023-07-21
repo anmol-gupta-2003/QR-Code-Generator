@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #de6161, #2657eb);
+    padding-top: 70px;
+}
+
+.container{
+    width: 70%;
+    height: 600px;
+    background-color: #C5DFF8;
+    margin: auto;
+    border-radius: 30px;
+    display: flex;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#first{
+    width: 45%;
+    height: 600px;
+    background: url('./bg1.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px 0px 0px 30px;
+}
+
+#second{
+    width: 55%;
+    height: 600px;
+    background: url(bg.jpg);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#first h1{
+    color: #fff;
+    font-size: 80px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+section p{
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#tagline{
+    letter-spacing: normal;
+    font-size: 18px;
+    margin-top: 50px;
+    line-height: 30px;
+    color: whitesmoke;
+}
+
+form input{
+    width: 85%;
+    height: 53px;
+    margin-top: 80px;
+    display: block;
+    margin-left: 40px;
+    outline: none;
+    padding: 0px 20px;
+    font-size: 18px;
+    border: 1px solid grey;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
+
+form button{
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    box-shadow: rgba(50,50,93,0.25) 0px 2px 5px -1px, rgba(0,0,0,0.3) 0px 1px 3px -1px;
+    background-color: #2657eb;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+form button:hover{
+    cursor: pointer;
+    background-color: #de6161;
+}
+
+#qrcode-div{
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.active{
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    box-shadow: rgba(0,0,0,0.3) 0px 19px 38px, rgba(0,0,0,0.22) 0px 15px 12px;
+    transition: all 0.5s;
+}
+
+@media (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    main {
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(to right, #de6161, #2657eb);
+        padding-top: 70px;
+    }
+    
+    .container {
+        width: 90%; /* Adjusted width for mobile */
+        max-width: 500px; /* Added maximum width for mobile */
+        height: auto; /* Adjusted height for mobile */
+        background-color: #C5DFF8;
+        margin: auto;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column; /* Changed flex direction for mobile */
+        align-items: center; /* Center items horizontally for mobile */
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    
+    #first {
+        width: 100%; /* Adjusted width for mobile */
+        height: 250px; /* Adjusted height for mobile */
+        background: url('bg1.jpg');
+        background-position: center;
+        background-size: cover;
+        border-radius: 30px 30px 0px 0px; /* Adjusted border-radius for mobile */
+    }
+    
+    #second {
+        width: 100%; /* Adjusted width for mobile */
+        height: auto; /* Adjusted height for mobile */
+        padding: 20px; /* Added padding for mobile */
+        border-top-right-radius: 0px;
+        border-bottom-left-radius:30px;
+    }
+    
+    #first h1 {
+        font-size: 50px; /* Adjusted font size for mobile */
+        margin-top: 70px; /* Adjusted top margin for mobile */
+    }
+    
+    section p {
+        font-size: 16px; /* Adjusted font size for mobile */
+        letter-spacing: 5px; /* Adjusted letter spacing for mobile */
+        margin-top: 5px; /* Adjusted top margin for mobile */
+    }
+    
+    #tagline {
+        font-size: 14px; /* Adjusted font size for mobile */
+        margin-top: 30px; /* Adjusted top margin for mobile */
+        line-height: 20px; /* Adjusted line height for mobile */
+    }
+
+    #qrcode-div {
+        width: 80%; /* Adjusted width for mobile */
+        height: auto; /* Adjusted height for mobile */
+        margin: auto;
+        margin-top: 30px; /* Adjusted top margin for mobile */
+    }
+    
+    
+    form input {
+        width: 80%; /* Adjusted width for mobile */
+        height: 40px; /* Adjusted height for mobile */
+        margin-top: 30px;
+        outline: none;
+        padding: 0px 10px; /* Adjusted padding for mobile */
+        font-size: 16px; /* Adjusted font size for mobile */
+        border: 1px solid grey;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        border-radius: 5px; /* Adjusted border radius for mobile */
+    }
+    
+    form button {
+        width: 80%; /* Adjusted width for mobile */
+        height: 40px; /* Adjusted height for mobile */
+        margin-top: 20px;
+        font-size: 16px; /* Adjusted font size for mobile */
+        border: none;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        background-color: #2657eb;
+        color: #fff;
+        font-weight: 500;
+        border-radius: 5px; /* Adjusted border radius for mobile */
+        transition: 0.4s;
+    }
+    
+    form button:hover {
+        cursor: pointer;
+        background-color: #de6161;
+    }
+    
+    
+    .active {
+        width: 200px; /* Adjusted width for mobile */
+        height: 200px; /* Adjusted height for mobile */
+        margin-left: 0; /* Removed left margin for mobile */
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px, rgba(0, 0, 0, 0.22) 0px 4px 5px; /* Adjusted box shadow for mobile */
+        transition: all 0.5s;
+    }
+    
+    /* Media Query for Mobile Devices */
+    @media (max-width: 600px) {
+        main {
+            padding-top: 50px; /* Adjusted padding for mobile */
+        }
+    
+        #first h1 {
+            font-size: 40px; /* Adjusted font size for smaller mobile devices */
+        }
+    
+        section p {
+            font-size: 14px; /* Adjusted font size for smaller mobile devices */
+            letter-spacing: 3px; /* Adjusted letter spacing for smaller mobile devices */
+        }
+    
+        #tagline {
+            font-size: 12px; /* Adjusted font size for smaller mobile devices */
+            margin-top: 20px; /* Adjusted top margin for smaller mobile devices */
+            line-height: 18px; /* Adjusted line height for smaller mobile devices */
+        }
+    
+        form input,
+        form button {
+            font-size: 14px; /* Adjusted font size for smaller mobile devices */
+        }
+    
+        #qrcode-div {
+            width: 44%; /* Adjusted width for smaller mobile devices */
+        }
+    
+        .active {
+            width: 150px; /* Adjusted width for smaller mobile devices */
+            height: 150px; /* Adjusted height for smaller mobile devices */
+        }
+    }
+    
+}
