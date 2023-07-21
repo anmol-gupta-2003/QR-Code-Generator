@@ -1,1 +1,1 @@
-# OR Code Generator
+# QR Code Generator
