@@ -251,7 +251,7 @@ form button:hover{
         }
     
         #qrcode-div {
-            width: 44%; /* Adjusted width for smaller mobile devices */
+            width: 35%; /* Adjusted width for smaller mobile devices */
         }
     
         .active {
