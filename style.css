@@ -123,8 +123,9 @@ form button:hover{
     
     main {
         width: 100%;
-        min-height: 100vh;
-        background: linear-gradient(to right, #de6161, #2657eb);
+        height: 100vh;
+        background: url(./image.jpg);
+        background-size: 1000px;
         padding-top: 70px;
     }
     
@@ -138,7 +139,7 @@ form button:hover{
         display: flex;
         flex-direction: column; /* Changed flex direction for mobile */
         align-items: center; /* Center items horizontally for mobile */
-        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        box-shadow: rgb(255, 255, 255) 0px 10px 20px -10px;
     }
     
     #first {
@@ -258,5 +259,4 @@ form button:hover{
             height: 150px; /* Adjusted height for smaller mobile devices */
         }
     }
-    
 }
