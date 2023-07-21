@@ -16,3 +16,4 @@
          qrcode.src = qr;
      }
  });
+ 
